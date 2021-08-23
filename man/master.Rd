@@ -4,7 +4,8 @@
 \name{master}
 \alias{master}
 \title{Master dataset combining the wildfires, AQI, and climate data for California from 2011 through 2015}
-\format{A dataframe with 1105972 rows and 23 variables:
+\format{
+A dataframe with 1105972 rows and 23 variables:
 \describe{
   \item{FIRE_NAME}{Name of the incident, from the fire report (primary) or ICS-209 report (secondary)}
   \item{DISCOVER_DATE}{Date on which the fire was discovered or confirmed to exist}
@@ -33,7 +34,8 @@
   \item{no2}{Nitrogen dioxide (NO2), in Parts per billion}
   \item{pm25}{PM2.5, in Micrograms/cubic meter (LC)}
   \item{pm10}{PM10, in Micrograms/cubic meter (25 C)}
-}}
+}
+}
 \usage{
 master
 }

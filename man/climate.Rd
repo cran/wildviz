@@ -4,7 +4,8 @@
 \name{climate}
 \alias{climate}
 \title{Daily weather summaries for California from 2011 through 2015}
-\format{A dataframe with 105850 rows and 7 variables:
+\format{
+A dataframe with 105850 rows and 7 variables:
 \describe{
   \item{fips}{Five-digit code combining the state and county codes from the FIPS publication 6-4 for counties}
   \item{date}{Date on which the climate measures were recorded}
@@ -13,7 +14,8 @@
   \item{snwd}{snow depth, in	mm}
   \item{tmax}{maximum temperature, in degrees Celsius}
   \item{tmin}{minumum temperature, in degrees Celsius}
-}}
+}
+}
 \source{
 \url{https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf}
 }
@@ -26,7 +28,7 @@ It is created from summarizing the measurements from GHCND stations to the daily
 and by filtering on the date (2011 - 2015), state (CA), and key cols.
 }
 \details{
-Data from the Daily Global Historical Climatology Network (GHCN-Daily) through NOAA’s FTP server.
+Data from the Daily Global Historical Climatology Network (GHCN-Daily) through the NOAA FTP server.
 The data is archived at the National Centers for Environmental Information (NCEI)
 (formerly the National Climatic Data Center (NCDC)), and spans from the 1800s to the current year.
 }

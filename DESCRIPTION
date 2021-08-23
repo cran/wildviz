@@ -1,8 +1,8 @@
 Package: wildviz
 Type: Package
 Title: Compiles and Visualizes Wildfire, Climate, and Air Quality Data
-Version: 0.1.1
-Date: 2021-01-10
+Version: 0.1.2
+Date: 2021-08-21
 Authors@R: 
     c(person(given = "Bradley",
              family = "Rafferty",
@@ -24,10 +24,11 @@ RoxygenNote: 7.1.1
 Depends: R (>= 3.5.0)
 Suggests: knitr, rmarkdown, markdown, testthat
 VignetteBuilder: knitr
+LazyDataCompression: xz
 NeedsCompilation: no
-Packaged: 2021-01-21 03:27:35 UTC; brjra
+Packaged: 2021-08-22 03:00:18 UTC; brjra
 Author: Bradley Rafferty [aut, cre],
   Daniel Chung [aut]
 Maintainer: Bradley Rafferty <brjrafferty@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-01-27 09:50:03 UTC
+Date/Publication: 2021-08-23 07:50:02 UTC

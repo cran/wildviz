@@ -4,7 +4,8 @@
 \name{aqi}
 \alias{aqi}
 \title{Air quality data records for California from 2011 through 2015}
-\format{A dataframe with 102752 rows and 10 variables:
+\format{
+A dataframe with 102752 rows and 10 variables:
 \describe{
   \item{state_code}{Two-digit code from the FIPS publication 6-4 for states}
   \item{county_code}{Three-digit code from the FIPS publication 6-4 for counties}
@@ -16,7 +17,8 @@
   \item{no2}{Nitrogen dioxide (NO2), in Parts per billion}
   \item{pm25}{PM2.5, in Micrograms/cubic meter (LC)}
   \item{pm10}{PM10, in Micrograms/cubic meter (25 C)}
-}}
+}
+}
 \source{
 \url{https://aqs.epa.gov/aqsweb/documents/data_api.html}
 }

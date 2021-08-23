@@ -4,7 +4,8 @@
 \name{wildfires}
 \alias{wildfires}
 \title{Geo-referenced California wildfire records from 2011 through 2015}
-\format{A dataframe with 31579 rows and 11 variables:
+\format{
+A dataframe with 31579 rows and 11 variables:
 \describe{
   \item{FIRE_NAME}{Name of the incident, from the fire report (primary) or ICS-209 report (secondary)}
   \item{DISCOVER_DATE}{Date on which the fire was discovered or confirmed to exist}
@@ -20,7 +21,8 @@
   \item{STATE}{Two-letter alphabetic code for the state in which the fire burned}
   \item{FIPS_CODE}{Three-digit code from the FIPS publication 6-4 for counties}
   \item{FIPS_NAME}{County name from the FIPS publication 6-4 for counties}
-}}
+}
+}
 \source{
 \url{https://www.kaggle.com/rtatman/188-million-us-wildfires}
 }
